@@ -1,0 +1,10 @@
+task default: %w[test1 test2]
+
+task :test1 do
+  ruby "lib/demo1.rb"
+end
+
+task :test2 do
+  ruby "lib/demo2.rb"
+end
+
